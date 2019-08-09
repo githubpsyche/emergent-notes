@@ -1,7 +1,7 @@
 The original emergent installation guide can be a bit hard to parse, and in some ways is distributed across many web pages. I try to produce a more concise guide here. As such, though, it does exclude some details. You can find those at the original guide: https://github.com/emer/emergent/wiki/Install
 
 ## Potential Prerequisites
-Depending on your OS, you may need some unique prerequisites before you can install emergent.
+Depending on your OS, you may need some unique prerequisites before you can install emergent. I include notes for the Windows and Mac operating systems.
 
 ### Some Windows-specific prerequisites
 - Git. To install packages with `go get`, you might need Git; this comes with other considered OSes, but not Windows' command prompt. I got mine at https://git-scm.com/downloads
@@ -13,7 +13,6 @@ Depending on your OS, you may need some unique prerequisites before you can inst
 > xcode-select --install
 > open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
 ```
-Prerequisites for other operating systems will have to be explored by people more familiar with those environments.
 
 ## Install Go
 Go is the programming language that emergent is written in. The installer can be found at https://golang.org/dl/.
