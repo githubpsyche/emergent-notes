@@ -1,3 +1,5 @@
+![Simulator Appearance](/simulator_appearance.png)
+
 The original emergent installation guide can be a bit hard to parse, and in some ways is distributed across many web pages. I try to produce a more concise guide here. As such, though, it does exclude some details. You can find those at the original guide: https://github.com/emer/emergent/wiki/Install
 
 ## 0. Potential Prerequisites
