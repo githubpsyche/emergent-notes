@@ -17,7 +17,6 @@ Prerequisites for other operating systems will have to be explored by people mor
 
 ## Install Go
 Go is the programming language that emergent is written in. The installer can be found at https://golang.org/dl/.
-After running the installer, you'll want to test its success by...
 
 ## Install GoGi
 GoGi is a 2D and 3D graphical user interface used by emergent. In your terminal, just execute the command `go get github.com/goki/gi` to install the package to your system.
