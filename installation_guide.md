@@ -1,6 +1,6 @@
 The original emergent installation guide can be a bit hard to parse, and in some ways is distributed across many web pages. I try to produce a more concise guide here. As such, though, it does exclude some details. You can find those at the original guide: https://github.com/emer/emergent/wiki/Install
 
-# Potential prerequisites.
+## Potential Prerequisites
 Depending on your OS, you may need some unique prerequisites before you can install emergent.
 
 Some Windows-specific prerequisites:
@@ -15,14 +15,14 @@ Some Mac-specific prerequisites:
 ```
 Prerequisites for other operating systems will have to be explored by people more familiar with those environments.
 
-# Install Go
+## Install Go
 Go is the programming language that emergent is written in. The installer can be found at https://golang.org/dl/.
 After running the installer, you'll want to test its success by...
 
-# Install GoGi
+## Install GoGi
 GoGi is a 2D and 3D graphical user interface used by emergent. In your terminal, just execute the command `go get github.com/goki/gi` to install the package to your system.
 
-# Install Leabra
+## Install Leabra
 The leabra ra25 example code is intended to work as a reasonable starting point for creating one's own simulations.
 
 * First grab the specific package containing our target executable.
@@ -35,8 +35,7 @@ The leabra ra25 example code is intended to work as a reasonable starting point 
 > go get -u ./...
 ```
 
-# Check if your installation worked
+## Check if your installation worked
 Within the same `go/src/github.com/emer/leabra/examples/ra25` path, execute the command `go run ra25.go`. This should initialize emergent with an interface like the one pictured above. 
 
-# Conclusion
 That's it! To make your own simulations, copy the ra25.go code to your own repository and modify accordingly. To generate an executable file that can be run directly, instead of calling `go run ra25.go`, use `go build` instead. This should generate an `ra25` executable that you can run with `./ra25`. 
