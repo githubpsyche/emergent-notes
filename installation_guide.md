@@ -18,7 +18,7 @@ Depending on your OS, you may need some unique prerequisites before you can inst
 Go is the programming language that emergent is written in. The installer can be found at https://golang.org/dl/.
 
 ## Install GoGi
-GoGi is a 2D and 3D graphical user interface used by emergent. In your terminal, just execute the command `go get github.com/goki/gi` to install the package to your system.
+GoGi is a 2D and 3D graphical user interface used by emergent. In your terminal, just execute within a restarted terminal the command `go get github.com/goki/gi` to install the package to your system.
 
 ## Install Leabra
 The leabra ra25 example code is intended to work as a reasonable starting point for creating one's own simulations.
