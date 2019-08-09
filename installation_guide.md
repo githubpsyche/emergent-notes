@@ -3,12 +3,12 @@ The original emergent installation guide can be a bit hard to parse, and in some
 ## Potential Prerequisites
 Depending on your OS, you may need some unique prerequisites before you can install emergent.
 
-Some Windows-specific prerequisites:
-* Git. To install packages with `go get`, you might need Git; this comes with other considered OSes, but not Windows' command prompt. I got mine at https://git-scm.com/downloads
-* A mingw compatible `gcc`. The full installation guide recommends the one here: http://tdm-gcc.tdragon.net/download
+### Some Windows-specific prerequisites
+- Git. To install packages with `go get`, you might need Git; this comes with other considered OSes, but not Windows' command prompt. I got mine at https://git-scm.com/downloads
+- A mingw compatible `gcc`. The full installation guide recommends the one here: http://tdm-gcc.tdragon.net/download
 
-Some Mac-specific prerequisites:
-* Xcode and relevant header files. You can grab these with two commands:
+### Some Mac-specific prerequisites
+- Xcode and relevant header files. You can grab these with two commands:
 ```
 > xcode-select --install
 > open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
